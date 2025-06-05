@@ -23,7 +23,7 @@
 <!-- GitHub Badges -->
 <p align="center">
   <a href="https://github.com/Xchristech?tab=followers">
-    <img src="https://img.shields.io/github/followers/XdKing2?label=Followers&style=flat&color=blue" alt="GitHub Followers" />
+    <img src="https://img.shields.io/github/followers/Xchristech?label=Followers&style=flat&color=blue" alt="GitHub Followers" />
   </a>
   <a href="https://github.com/Xchristech/BotifyX/stargazers">
     <img src="https://img.shields.io/github/stars/Xchristech/BotifyX?label=Stars&style=flat&color=brightgreen" alt="GitHub Stars" />
