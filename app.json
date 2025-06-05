@@ -1,0 +1,17 @@
+{                                                                     
+  "name": "BotifyX",                                           
+  "description": "WhatsApp bot.",                                       
+  "repository": "https://github.com/Xchristech/BotifyX",                                                                     
+  "logo": "https://files.catbox.moe/7jd2t7.png",           
+  "keywords": ["nodejs", "Xchristech, "multi device"],                                               
+  "buildpacks": [                                                     
+    {                                                                   
+      "url": "heroku/nodejs"                                        
+    },                                                                
+    {                                                                   
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"                                                            
+    },                                                                
+    {                                                                   
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"                                                                  
+    }                                                            
+  ]                            
