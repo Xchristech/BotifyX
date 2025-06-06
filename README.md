@@ -125,7 +125,7 @@
 
 > Made with ❤️ by Malvin
 
-- 👤 [Malvin King](https://github.com/Xchristech) – Creator & Maintainer  
+- 👤 [Chris Gaaju](https://github.com/Xchristech) – Creator & Maintainer  
   - Optimized scripts, plugin management, core features
 
 ---
@@ -137,7 +137,7 @@
 - 📢 **WhatsApp Channel**  
   [![Join WhatsApp](https://img.shields.io/badge/Join%20WhatsApp-Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029Vb5qc6N2Jl8E3EcVBv0t)
 
-- ▶️ **YouTube: MalvinTech**  
+- ▶️ **YouTube: chrisTech5**  
   [![Subscribe YouTube](https://img.shields.io/badge/Subscribe-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@Xchristech)
 
 <!-- Farewell Typing SVG -->
