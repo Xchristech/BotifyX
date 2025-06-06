@@ -10,7 +10,7 @@
   "keywords": [
     "BotifyX","WhatsAppbot"
   ],
-  "author": "Chris Gaaju,
+  "author": "Chris Gaaju",
   "license": "Vyl",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
