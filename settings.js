@@ -11,7 +11,7 @@ global.yt = 'https://youtube.me/@Xchristech'
 global.ttowner = '-'
 global.ownername = 'ᴠᴏʟᴛᴀɢᴇ ʟᴏʀᴅ ᴅᴇᴠ' 
 global.owner = ['2348069675806'] // SETTINGS ARE ALSO IN THE DATABASE FOLDER 
-global.ownernomer = '2348069675806
+global.ownernomer = '2348069675806';
 global.socialm = 'https://github.com/Xchristech'
 global.location = 'Nigeria' 
 //========================setting Payment=====================\\
