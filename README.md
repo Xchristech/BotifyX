@@ -123,7 +123,7 @@
 
 ## 💡 Credits & Contributors
 
-> Made with ❤️ by Malvin
+> Made with ❤️ by Chris
 
 - 👤 [Chris Gaaju](https://github.com/Xchristech) – Creator & Maintainer  
   - Optimized scripts, plugin management, core features
