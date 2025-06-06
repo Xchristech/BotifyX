@@ -1,111 +1,45 @@
-///SC RECODE BY DINZID VyL x Chris Gaaju
-// © RECODE BY Chris Gaaju 2022 - 2025
-// Cr : @Xchristech 
-//DO NOT DELETE CREDITS!! DELETE? = I'LL ENCRYPT EVERYTHING!! 
-
 const chalk = require("chalk")
 const fs = require("fs")
 //auto presence update
-global.autoTyping = false //auto typing in group chat (true to enable, false to disable)
-global.autoRecord = false //auto recording (true to enable, false to disable)
-global.autoblockmorroco = true //auto block 212 (true to enable, false to disable)
-global.autokickmorroco = true //auto kick 212 (true to enable, false to disable) 
-global.antispam = false //auto kick spammer (true to enable, false to disable)
-//////////////////////////////////////////////////////////////////////////////////
 
-//LIMIT//
-
-//=========EDIT THE THUMBNAIL MENU & ALLMENU PART==========//
-
-global.thumbnail = 'https://files.catbox.moe/c02c8v.png', //YOUR MENU THUMBNAIL
-global.dinzmenu = 'https://files.catbox.moe/q1hgqt.jpg', //YOUR MENU BUTTON THUMBNAIL
-/////////////////////////////////////////////////////////////////////////////////
-
-//LIMIT//
-
-/////////////////////// WELCOME SETTINGS ///////////////
-global.wlcmimg = 'https://files.catbox.moe/t307k4.jpg'
-global.leftimg = 'https://files.catbox.moe/q1hgqt.jpg'
-global.wlcm = true //FOR AUTO WELCOME
-global.textwlcm = `
-┌─┉─ • ─┉─  ── .✦
-│Welcome new member, introduction please!
-│Name:
-│Ask:
-│Age:
-│Make sure to introduce yourself properly ૮₍꜆꜄ ˃ ³ ˂ ₎ა
-└─┉─¡! • !¡─┉─ ── .✦
-`
-
-///////////////////)/)) FAKE REPLY/FAKE QUOTED //////////////////))/
-global.replyyoimiya = 'https://files.catbox.moe/t307k4.jpg'
-global.replyChrisID = 'https://files.catbox.moe/ivpyvf.png'
-global.replydinz = 'https://files.catbox.moe/c02c8v.png'
-global.reply = 'https://files.catbox.moe/q1hgqt.jpg'
-global.replyviex = 'https://files.catbox.moe/t307k4.jpg'
-
-//////////////////////YOUR MENU DISPLAY SETTINGS//////////////////
-global.ig = '@ChrisXd' //YOUR INSTAGRAM NAME
-global.yt = 'ChrisTech5' //YOUR YOUTUBE NAME, IF NONE THEN LEAVE BLANK
-global.ttowner = 'chrisX' //YOUR TIKTOK NAME
-global.ownername = 'ᴅᴇᴠ : ᴍᴀʟᴠɪɴ ᴋɪɴɢ' //YOUR NAME
-global.owner = ['2348069675806'] // ALSO SET THIS IN DATABASE FOLDER 
-global.ownernomer = '2348069675806' //YOUR NUMBER
-global.socialm = 'GitHub: -'
-global.location = 'Indonesia' 
-global.nameCreator = 'ᴅᴇᴠ : ᴍᴀʟᴠɪɴ ᴋɪɴɢ'
-/////////////////////////////////////////////////////////////////////////////////
-
-
-//==================BOT SETTINGS===========================\\
-global.botname = "BOTIFY | BOT" //YOUR BOT NAME
-global.ownernumber = '2348069675806' //YOUR NUMBER
-global.botnumber = '2348069675806' //YOUR NUMBER
-global.ownername = 'ᴅᴇᴠ : ᴍᴀʟᴠɪɴ ᴋɪɴɢ' //YOUR NAME
-global.idSaluran = "120363398430045533@newsletter" //YOUR CHANNEL ID
-global.idch = "120363398430045533@newsletter" //YOUR CHANNEL ID
-global.chat = '120363398430045533@newsletter'
-global.namaSaluran = "BOTIFY | MD"
-global.linkSaluran = "https://whatsapp.com/channel/0029Vb5qc6N2Jl8E3EcVBv0t"
-global.ownerNumber = ["2348069675806@s.whatsapp.net"] //YOUR NUMBER
-global.ownerweb = "" //YOUR WEB//OPTIONAL
-global.websitex = "" //OPTIONAL
+global.domainotp = "https://claudeotp.com/api"
+global.apikeyotp = "a395f97fe99f4fad0e790d10af518b9a"
+//===============SETTING MENU==================\\
+global.thumbnail = fs.readFileSync("./data/image/thumb.jpg")
+global.ig = 'https://wa.me/2348069675806'
+global.yt = 'https://youtube.me/@Xchristech'
+global.ttowner = '-'
+global.ownername = 'ᴠᴏʟᴛᴀɢᴇ ʟᴏʀᴅ ᴅᴇᴠ' 
+global.owner = ['2348069675806'] // SETTINGS ARE ALSO IN THE DATABASE FOLDER 
+global.ownernomer = '2348069675806
+global.socialm = 'https://github.com/Xchristech'
+global.location = 'Nigeria' 
+//========================setting Payment=====================\\
+global.nodana = '7045989058' // IT'S BLANK IF IT'S NOT EXISTING
+global.nogopay = '7045989058' // IT'S BLANK IF IT'S NOT EXISTING 
+global.noovo = '' // IT'S BLANK IF IT'S NOT EXISTING
+//==================setting Payment Name===========================\\
+global.andana = '' // IT'S BLANK IF IT'S NOT EXISTING
+global.angopay = '' // IT'S BLANK IF IT'S NOT EXISTING
+global.anovo = '' // IT'S BLANK IF IT'S NOT EXISTING
+//==================setting bot===========================\\
+global.botname = "sᴘᴀʀᴋ ᴍᴅ"
+global.ownernumber = '2348069675806'
+global.botnumber = '2348069675806'
+global.ownername = 'ᴠᴏʟᴛᴀɢᴇ'
+global.ownerNumber = ["2348069675806@s.whatsapp.net"]
+global.ownerweb = "https://lynk.id/Xchristech"
+global.websitex = "https://lynk.id/Xchristech"
 global.wagc = "https://whatsapp.com/channel/0029Vb5qc6N2Jl8E3EcVBv0t"
-global.wach = 'https://whatsapp.com/channel/0029Vb5qc6N2Jl8E3EcVBv0t'
 global.saluran = "https://whatsapp.com/channel/0029Vb5qc6N2Jl8E3EcVBv0t"
-global.themeemoji = '💫'
-global.wm = "Chris Gaaju Tha Best"
-global.botscript = 'ʙᴏᴛ sᴄʀɪᴘᴛ ɪɴ\nlink : https://whatsapp.com/channel/0029Vb5qc6N2Jl8E3EcVBv0t'
-global.packname = "Made With ❤️ By"
-global.author = "\n\nLordBoti\n Dev : Chris"
+global.themeemoji = '☌ '
+global.wm = "ᴠᴏʟᴛᴀɢᴇ"
+global.botscript = 'https://github.com/Xchristech/BotifyX' //script link
+global.packname = "sᴘᴀʀᴋ ᴍᴅ"
+global.author = "ᴠᴏʟᴛᴀɢᴇ"
 global.creator = "2348069675806@s.whatsapp.net"
+//===========================//
 
-
-////////////////////////////////////////////////////////
-
-global.mess = {
-    wait: "*_ᴡᴀɪᴛ ᴛɪʟʟ ɪᴛ'ᴅ ᴘʀᴏᴄᴇssᴇᴅ._*",
-    success: "Success!",
-    on: "ᴇɴᴀʙʟᴇᴅ",
-    off: "ᴅɪsᴀʙʟᴇᴅ",
-    query: {
-        text: "Where's the text, please?",
-        link: "Where's the link, please?",
-    },
-    error: {
-        feature: "Sorry, there is a feature error. Please contact the bot developer via chat for it to be fixed.",
-    },
-    only: {
-        group: "Sorry, this feature is only available in groups.",
-        private: "Sorry, this feature is only available in private chats.",
-        owner: "Sorry, this feature is only available for the bot owner.",
-        admin: "Sorry, this feature is only available for bot admins.",
-        badmin: "Sorry, it looks like you are not an admin, so you can't use this feature.",
-        premium: "Sorry, you are not a premium user yet. To become a premium user, please contact the owner using .owner.",
-    }
-}
-
-//========================================\\
 global.decor = {
 	menut: '❏═┅═━–〈',
 	menub: '┊•',
@@ -131,17 +65,89 @@ global.decor = {
 
 //===========================//
 
+global.rpg = {
+    emoticon(string) {
+        string = string.toLowerCase()
+        let emot = {
+            level: '📊',
+            limit: '🎫',
+            health: '❤️',
+            exp: '✨',
+            atm: '💳',
+            money: '💰',
+            bank: '🏦',
+            potion: '🥤',
+            diamond: '💎',
+            common: '📦',
+            uncommon: '🛍️',
+            mythic: '🎁',
+            legendary: '🗃️',
+            superior: '💼',
+            pet: '🔖',
+            trash: '🗑',
+            armor: '🥼',
+            sword: '⚔️',
+            makanancentaur: "🥗",
+            makanangriffin: "🥙",
+            makanankyubi: "🍗",
+            makanannaga: "🍖",
+            makananpet: "🥩",
+            makananphonix: "🧀",
+            pickaxe: '⛏️',
+            fishingrod: '🎣',
+            wood: '🪵',
+            rock: '🪨',
+            string: '🕸️',
+            horse: '🐴',
+            cat: '🐱',
+            dog: '🐶',
+            fox: '🦊',
+            robo: '🤖',
+            petfood: '🍖',
+            iron: '⛓️',
+            gold: '😊',
+            emerald: '❇️',
+            upgrader: '🧰',
+            bibitanggur: '🌱',
+            bibitjeruk: '🌿',
+            bibitapel: '☘️',
+            bibitmangga: '🍀',
+            bibitpisang: '🌴',
+            anggur: '🍇',
+            jeruk: '🍊',
+            apel: '🍎',
+            mangga: '🥭',
+            pisang: '🍌',
+            botol: '🍾',
+            kardus: '📦',
+            kaleng: '🏮',
+            plastik: '📜',
+            gelas: '🧋',
+            chip: '♋',
+            umpan: '🪱',
+            naga: "🐉",
+            phonix: "🦅",
+            kyubi: "🦊",
+            griffin: "🦒",
+            centaur: "🎠",
+            skata: '🧩'
+        }
+        let results = Object.keys(emot).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
+        if (!results.length) return ''
+        else return emot[results[0][0]]
+    }
+}
+
 //new
 global.prefix = ['.']
-global.sessionName = 'session' // Jangan di ubah takut nanti error
+global.sessionName = 'session'
 global.hituet = 0
 //media target
 global.thum = fs.readFileSync("./data/image/thumb.jpg") //ur thumb pic
 global.log0 = fs.readFileSync("./data/image/thumb.jpg") //ur logo pic
 global.err4r = fs.readFileSync("./data/image/thumb.jpg") //ur error pic
 global.thumb = fs.readFileSync("./data/image/thumb.jpg") //ur thumb pic
-global.filename = "©ᴅᴇᴠ : ᴍᴀʟᴠɪɴ ᴋɪɴɢ"
-global.defaultpp = 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60' //default pp wa
+global.defaultpp = 'https://img1.pixhost.to/images/5719/598093240_spark.png' //default pp wa
 
 //menu image maker
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
@@ -149,6 +155,30 @@ global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutpu
 global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 
+//messages
+global.mess = {
+wait:"*please wait..*",
+   success: "sᴜᴄᴄᴇssғᴜʟ",
+   on: "і ᥲm ᥲ botify 𝗍һᥲ𝗍 ძ᥆ᥱsᥒ'𝗍 g᥆ ᥆𝖿𝖿🌟", 
+   off: "ᥱ᥎ᥱᥒ іᥒ ძᥲrkᥒᥱss 𝗍һᥱrᥱ sһᥲᥣᥣ ᑲᥱ ᥲ s⍴ᥲrk..",
+   query: {
+       text: "ᴘʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ ᴀ ᴛᴇxᴛ",
+       link: "ᴘʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ ᴀ ʟɪɴᴋ",
+   },
+   error: {
+       fitur: "Tһᥱrᥱ's ᥲᥒ ᥱrr᥆r ᥕі𝗍һ 𝗍һіs 𝖿ᥱᥲ𝗍ᥙrᥱ. kіᥒძᥣᥡ ᥴ᥆ᥒ𝗍ᥲᥴ𝗍 ᥆ᥕᥒᥱr𒈒",
+   },
+   only: {
+       group: "* *ᴀᴄᴄᴇss ᴅᴇɴɪᴇᴅ*\nᴛʜɪs ғᴇᴀᴛᴜʀᴇ ɪs ᴏɴʟʏ ғᴏʀ ɢʀᴏᴜᴘs",
+      private: "* *ᴀᴄᴄᴇss ᴅᴇɴɪᴇᴅ*\nᴛʜɪs ғᴇᴀᴛᴜʀᴇ ɪs ᴏɴʟʏ ғᴏʀ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ!",
+       owner: "* *ᴀᴄᴄᴇss ᴅᴇɴɪᴇᴅ*\nᴛʜɪs ғᴇᴀᴛᴜʀᴇ ɪs ғᴏʀ ᴍʏ ᴏᴡɴᴇʀ ᴏɴʟʏ!",
+       admin: "* *ᴀᴄᴄᴇss ᴅᴇɴɪᴇᴅ*\nᴛʜɪs ғᴇᴀᴛᴜʀᴇ ɪs ᴏɴʟʏ ғᴏʀ ᴡʜᴇɴ ᴛʜᴇ ʙᴏᴛ ɪs ᴀɴ ᴀᴅᴍɪɴ!",
+       badmin: "ᴍᴀᴋᴇ ᴍʏ ᴏᴡɴᴇʀ ᴀᴅᴍɪɴ⬤",
+       premium: "* *ᴀᴄᴄᴇss ᴅᴇɴɪᴇᴅ*\nᴛʜɪs ғᴇᴀᴛᴜʀᴇ ɪs ғᴏʀ ᴍʏ ᴏᴡɴᴇʀ ᴏɴʟʏ!",
+   }
+}
+ 
+//if api key expire, u can generate one from here: https://beta.openai.com/account/api-keys
 global.keyopenai = "pk-pIWAlRroXTOAigkWdHcYvmlmgzEQXuoMWbVAaLAVZswSRbEB"
 //documents variants
 global.doc1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
